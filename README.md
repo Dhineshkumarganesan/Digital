@@ -51,9 +51,11 @@ Reduce training time from hours to minutes with optimized infrastructure. Boost 
 Streamline the ML lifecycle
 Automate and standardize MLOps practices across your organization to build, train, deploy, and manage models at scale.
 
-Data Curation
+Curation of Data
 
 **********************************
+
+Data Curation
 
 Amazon Glue
 
@@ -66,6 +68,9 @@ SNS
 
 Model Development & AI ML Curation
 **********************************
+
+AI ML Curation
+
 ML Pipeline
 
 Development Workbench
@@ -98,7 +103,7 @@ Monitor Feature Attribution Drift
 https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-feature-attribution-drift.html
 
 
-Model Store
+Storing of Models ( On prem & cloud )
 ***********
 Amazon ECR
 
