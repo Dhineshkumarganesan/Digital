@@ -1,5 +1,5 @@
 # Digital
-This is an Informative blog on new concepts & terms related to Digital that involved Digital Twin, AI, Robotics, Data Engineering, IOT, Virtual reality <br>
+This is an Informative blog on new concepts & terms related to Digital that involves Digital Twin, AI, Robotics, Data Engineering, IOT, Virtual reality <br>
 
 
 Digital Twin<br>
