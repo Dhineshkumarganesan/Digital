@@ -51,4 +51,86 @@ Reduce training time from hours to minutes with optimized infrastructure. Boost 
 Streamline the ML lifecycle
 Automate and standardize MLOps practices across your organization to build, train, deploy, and manage models at scale.
 
+Data Curation
+
+**********************************
+
+Amazon Glue
+
+Amazon S3
+
+SQS
+
+SNS
+
+
+Model Development & AI ML Curation
+**********************************
+ML Pipeline
+
+Development Workbench
+
+Notebook
+
+Model
+
+Container
+
+Train
+
+
+Quality Check
+****************
+Monitor Quality Check on Data
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-data-quality.html
+
+Monitor Quality Check on Model
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor-model-quality.html
+
+Monitor Bias Drift
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-bias-drift.html
+
+Monitor Feature Attribution Drift
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-feature-attribution-drift.html
+
+
+Model Store
+***********
+Amazon ECR
+
+Docker Hub
+
+Model Artefacts
+
+Microservices
+***************
+Kubernetes Cluster ( Redhat open shift / Minikube/ any on premise vendor)
+
+EKS Microservices  ( Cloud Kubernetes engine)
+
+Apache Airflow
+
+Inference Engine
+
+Event Bridge
+
+S3 Model Output
+
+Prediction Models
+*******************
+Anomaly Engine
+
+Inference Analytics
+
+Clustering
+
+Forecasting ( Timeseries)
+
+Deep learning
+
+
 
