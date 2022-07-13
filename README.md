@@ -59,6 +59,7 @@ Curation of Data <br>
 Data Curation
 
 Amazon Glue
+https://www.youtube.com/watch?v=Qpv7BzOM-UI
 
 Amazon S3
 
