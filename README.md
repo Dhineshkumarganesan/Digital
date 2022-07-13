@@ -82,6 +82,12 @@ Model
 
 Container
 
+
+https://medium.com/@thejasbabu/docker-the-mysterious-black-box-338ee3139bed
+https://www.youtube.com/watch?v=2_yOif1JlW0
+https://appfleet.com/blog/reverse-engineer-docker-images-into-dockerfiles-with-dedockify/
+
+
 Train
 
 *****************<br>
