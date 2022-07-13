@@ -74,8 +74,11 @@ Benefits
 --> More Power
 --> Cost Effective
 
+Glue Design 
 ![image](https://user-images.githubusercontent.com/59999899/178738151-4aaa2c23-aa85-44e7-8192-038b9760ff53.png)
 
+Critical Terminologies
+![image](https://user-images.githubusercontent.com/59999899/178738488-ea29b5bf-3d24-4d04-a32a-12891c17c409.png)
 
 
 Amazon S3
