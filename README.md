@@ -59,7 +59,24 @@ Curation of Data <br>
 Data Curation
 
 Amazon Glue
-https://www.youtube.com/watch?v=Qpv7BzOM-UI
+
+It is a fully managed ETL ( Extract, Transact , Load) service that makes it simple and cost effective to categorize your data, clean it, enrich it and move it reliably 
+between various data stores. They are serverless.
+
+When do you use AWS Glue 
+--> to build a data warehouse to organize, cleanse, validate and format data
+--> when you run serverless queries against your Amazon S3 data lake
+--> when you want to create event driven ETL Pipelines
+--> to understand your data assets
+
+Benefits
+--> Less hassle
+--> More Power
+--> Cost Effective
+
+![image](https://user-images.githubusercontent.com/59999899/178738151-4aaa2c23-aa85-44e7-8192-038b9760ff53.png)
+
+
 
 Amazon S3
 
