@@ -53,7 +53,7 @@ Streamline the ML lifecycle
 Automate and standardize MLOps practices across your organization to build, train, deploy, and manage models at scale.
 
 **********************************<br>
-Curation of Data
+Curation of Data <br>
 **********************************<br>
 
 Data Curation
@@ -67,7 +67,7 @@ SQS
 SNS
 
 **********************************<br>
-Model Development & AI ML Curation
+Model Development & AI ML Curation<br>
 **********************************<br>
 
 AI ML Curation
@@ -85,7 +85,7 @@ Container
 Train
 
 *****************<br>
-Quality Check
+Quality Check<br>
 ******************<br>
 Monitor Quality Check on Data
 
@@ -104,7 +104,7 @@ Monitor Feature Attribution Drift
 https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-feature-attribution-drift.html
 
 **********************************<br>
-Storing of Models ( On prem & cloud )
+Storing of Models ( On prem & cloud )<br>
 **********************************<br>
 Amazon ECR
 
@@ -113,7 +113,7 @@ Docker Hub
 Model Artefacts
 
 **********************************<br>
-Microservices
+Microservices<br>
 **********************************<br>
 Kubernetes Cluster ( Redhat open shift / Minikube/ any on premise vendor)
 
@@ -127,7 +127,7 @@ Event Bridge
 
 S3 Model Output
 **********************************<br>
-Prediction Models
+Prediction Models<br>
 **********************************<br>
 Anomaly Engine
 
