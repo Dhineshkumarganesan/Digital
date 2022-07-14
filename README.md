@@ -56,9 +56,29 @@ Automate and standardize MLOps practices across your organization to build, trai
 Curation of Data <br>
 **********************************<br>
 
-Data Curation
+Data curation is the process of creating, organizing and maintaining data sets so they can be accessed and used by people looking for information. It involves collecting, structuring, indexing and cataloging data for users in an organization, group or the general public. Main reason to learn data curation is to improve communication about data on your team.
 
-Amazon Glue
+Data curation files consists of Flowcharts, tables other than data tables, Diagrams, Cheat sheets, Manuals, Data dictionaries,Survery documentation, Warehouse documentation, Policies and Procedures.
+
+A data reduction diagram is a flow chart that shows how you systematically removed records from bigger datasets to reduce it to a smaller dataset.
+
+Good Data --> Good ML Model
+
+Awesome Data --> Awesome ML Model
+
+Best Practices to perfom data curation 
+
+1.Clear Labels
+2.Relevant data
+3.Beware of biased data 
+a)Collect more data
+b)Adjust weighting
+4.Use consistent terms
+5.Rule out - data leakage 
+
+************<br>
+Amazon Glue<br>
+************<br>
 
 It is a fully managed ETL ( Extract, Transact , Load) service that makes it simple and cost effective to categorize your data, clean it, enrich it and move it reliably 
 between various data stores. They are serverless.
