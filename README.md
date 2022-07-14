@@ -107,6 +107,8 @@ SQS
 
 SNS
 
+
+
 **********************************<br>
 Model Development & AI ML Curation<br>
 **********************************<br>
@@ -153,11 +155,23 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-model-monitor-feature-at
 **********************************<br>
 Storing of Models ( On prem & cloud )<br>
 **********************************<br>
+Amazon EC2
+
 Amazon ECR
 
 Docker Hub
 
 Model Artefacts
+
+Istio 
+
+LinkerD
+
+AWS App Mesh
+
+EKS
+
+Fargate
 
 **********************************<br>
 Microservices<br>
