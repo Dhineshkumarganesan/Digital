@@ -103,10 +103,25 @@ Critical Terminologies
 
 Amazon S3
 
-SQS
+Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its e-commerce network
 
-SNS
+Amazon EC2
 
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy applications faster.
+
+Amazon ECR
+
+Amazon Elastic Container Registry (Amazon ECR) is an AWS managed container image registry service that is secure, scalable, and reliable. Amazon ECR supports private repositories with resource-based permissions using AWS IAM.
+
+Amazon SQS
+
+What is Amazon SQS used for?
+Amazon SQS is a message queue service used by distributed applications to exchange messages through a polling model, and can be used to decouple sending and receiving components.
+
+Amazon SNS
+
+What is an Amazon SNS topic?
+An Amazon SNS topic is a logical access point that acts as a communication channel. A topic lets you group multiple endpoints (such as AWS Lambda, Amazon SQS, HTTP/S, or an email address).
 
 
 **********************************<br>
@@ -115,7 +130,15 @@ Model Development & AI ML Curation<br>
 
 AI ML Curation
 
+What is Data Curation? 
+As defined by tech republic, data curation is “the art of maintaining the value of data.” It is the process of collecting, organizing, labeling, cleaning, enhancing and preserving data for use
+
+What is AI curation?
+AI-based curation refers to the use of algorithms to process huge volumes of data, deciphering meaning and patterns. AI works by analysing user data to make sense of user intent, thereby helping marketers address consumers better
+
 ML Pipeline
+
+One definition of an ML pipeline is a means of automating the machine learning workflow by enabling data to be transformed and correlated into a model that can then be analyzed to achieve outputs. This type of ML pipeline makes the process of inputting data into the ML model fully automated.
 
 Development Workbench
 
