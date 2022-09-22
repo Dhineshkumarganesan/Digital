@@ -224,4 +224,20 @@ Forecasting ( Timeseries)
 Deep learning
 
 
+************************************<br>
+Ontology
+************************************<br>
+
+In metaphysics, ontology is the philosophical study of being, as well as related concepts such as existence, becoming, and reality. Ontology addresses questions of how entities are grouped into categories and which of these entities exist on the most fundamental level.
+
+In computer science and information science, an ontology encompasses a representation, formal naming, and definition of the categories, properties, and relations between the concepts, data, and entities that substantiate one, many, or all domains of discourse. More simply, an ontology is a way of showing the properties of a subject area and how they are related, by defining a set of concepts and categories that represent the subject.
+
+Databases utilize entity-relationship diagrams, which represent the logic of the database, whereas ontologies are expressed in languages with which you can describe logics.
+
+The fundamental focus of an ontology is to specify and share meaning. The fundamental focus for a database schema is to describe data. A relational database schema has a single purpose: to structure a set of instances for efficient storage and querying.
+
+What is a database ontology?<br>
+
+An ontology database is a basic relational database management system that models an ontology plus its instances. To reason over the transitive closure of instances in the subsumption hierarchy, for example, an ontology database can either unfold views at query time or propagate assertions using triggers at load time.
+
 
