@@ -239,5 +239,12 @@ The fundamental focus of an ontology is to specify and share meaning. The fundam
 What is a database ontology?<br>
 
 An ontology database is a basic relational database management system that models an ontology plus its instances. To reason over the transitive closure of instances in the subsumption hierarchy, for example, an ontology database can either unfold views at query time or propagate assertions using triggers at load time.
+<br>
+GRPC
 
+gRPC is a cross-platform open source high performance Remote Procedure Call framework. gRPC was initially created by Google, which has used a single general-purpose RPC infrastructure called Stubby to connect the large number of microservices running within and across its data centers for over a decade.
+
+why SQS
+
+Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available. Get started with SQS in minutes using the AWS Management Console, Command Line Interface or SDK of your choice, and three simple commands.
 
