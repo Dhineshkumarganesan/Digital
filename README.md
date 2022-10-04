@@ -259,9 +259,9 @@ https://aws.amazon.com/what-is/digital-twin/
 what is Digital twin technology
 
 A digital twin is a virtual model of a physical object. It spans the object's lifecycle and uses real-time data sent from sensors on the object to simulate the behavior and monitor operations. Digital twins can replicate many real-world items, from single pieces of equipment in a factory to full installations, such as wind turbines and even entire cities. Digital twin technology allows you to oversee the performance of an asset, identify potential faults, and make better-informed decisions about maintenance and lifecycle.
+</br>
 
-
-How does a digital twin work?
+How does a digital twin work? </br>
 A digital twin works by digitally replicating a physical asset in the virtual environment, including its functionality, features, and behavior. A real-time digital representation of the asset is created using smart sensors that collect data from the product. You can use the representation across the lifecycle of an asset, from initial product testing to real-world operating and decommissioning.
 
 Digital twins use several technologies to provide a digital model of an asset. They include the following.
