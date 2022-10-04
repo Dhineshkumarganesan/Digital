@@ -239,12 +239,42 @@ The fundamental focus of an ontology is to specify and share meaning. The fundam
 What is a database ontology?<br>
 
 An ontology database is a basic relational database management system that models an ontology plus its instances. To reason over the transitive closure of instances in the subsumption hierarchy, for example, an ontology database can either unfold views at query time or propagate assertions using triggers at load time.
-<br>
+
+</br>
 GRPC
 
 gRPC is a cross-platform open source high performance Remote Procedure Call framework. gRPC was initially created by Google, which has used a single general-purpose RPC infrastructure called Stubby to connect the large number of microservices running within and across its data centers for over a decade.
-
+</br>
 why SQS
 
 Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available. Get started with SQS in minutes using the AWS Management Console, Command Line Interface or SDK of your choice, and three simple commands.
+
+</br>
+
+Digital Twin
+
+https://aws.amazon.com/what-is/digital-twin/
+
+
+what is Digital twin technology
+
+A digital twin is a virtual model of a physical object. It spans the object's lifecycle and uses real-time data sent from sensors on the object to simulate the behavior and monitor operations. Digital twins can replicate many real-world items, from single pieces of equipment in a factory to full installations, such as wind turbines and even entire cities. Digital twin technology allows you to oversee the performance of an asset, identify potential faults, and make better-informed decisions about maintenance and lifecycle.
+
+
+How does a digital twin work?
+A digital twin works by digitally replicating a physical asset in the virtual environment, including its functionality, features, and behavior. A real-time digital representation of the asset is created using smart sensors that collect data from the product. You can use the representation across the lifecycle of an asset, from initial product testing to real-world operating and decommissioning.
+
+Digital twins use several technologies to provide a digital model of an asset. They include the following.
+
+Internet of Things
+Internet of Things refers to a collective network of connected devices and the technology that facilitates communication between devices and the cloud as well as between the devices themselves. Thanks to the advent of inexpensive computer chips and high-bandwidth telecommunication, we now have billions of devices connected to the internet. Digital twins rely on IoT sensor data to transmit information from the real-world object into the digital-world object. The data inputs into a software platform or dashboard where you can see data updating in real time.
+
+Artificial intelligence
+Artificial intelligence (AI) is the field of computer science that's dedicated to solving cognitive problems commonly associated with human intelligence, such as learning, problem solving, and pattern recognition. Machine learning (ML) is an AI technique that develops statistical models and algorithms so that computer systems perform tasks without explicit instructions, relying on patterns and inference instead. Digital twin technology uses machine learning algorithms to process the large quantities of sensor data and identify data patterns. Artificial intelligence and machine learning (AI/ML) provide data insights about performance optimization, maintenance, emissions outputs, and efficiencies.
+
+Digital twins compared to simulations
+Digital twins and simulations are both virtual model-based simulations, but some key differences exist. Simulations are typically used for design and, in certain cases, offline optimization. Designers input changes to simulations to observe what-if scenarios. Digital twins, on the other hand, are complex, virtual environments that you can interact with and update in real time. They are bigger in scale and application.
+
+For example, consider a car simulation. A new driver can get an immersive training experience, learn the operations of various car parts, and face different real-world scenarios while virtually driving. However, the scenarios are not linked to an actual physical car. A digital twin of the car is linked to the physical vehicle and knows everything about the actual car, such as vital performance stats, the parts replaced in the past, potential issues as observed by the sensors, previous service records, and more.
+
 
