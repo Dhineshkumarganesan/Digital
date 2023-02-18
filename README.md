@@ -277,4 +277,8 @@ Digital twins and simulations are both virtual model-based simulations, but some
 
 For example, consider a car simulation. A new driver can get an immersive training experience, learn the operations of various car parts, and face different real-world scenarios while virtually driving. However, the scenarios are not linked to an actual physical car. A digital twin of the car is linked to the physical vehicle and knows everything about the actual car, such as vital performance stats, the parts replaced in the past, potential issues as observed by the sensors, previous service records, and more.
 
+What is Calico?
 
+Calico is an open source networking and network security solution for containers, virtual machines, and native host-based workloads. Calico supports a broad range of platforms including Kubernetes, OpenShift, Mirantis Kubernetes Engine (MKE), OpenStack, and bare metal services.
+
+Whether you opt to use Calico's eBPF data plane or Linux’s standard networking pipeline, Calico delivers blazing fast performance with true cloud-native scalability. Calico provides developers and cluster operators with a consistent experience and set of capabilities whether running in public cloud or on-prem, on a single node, or across a multi-thousand node cluster.
