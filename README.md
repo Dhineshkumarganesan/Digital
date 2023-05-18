@@ -284,6 +284,104 @@ Calico is an open source networking and network security solution for containers
 Whether you opt to use Calico's eBPF data plane or Linux’s standard networking pipeline, Calico delivers blazing fast performance with true cloud-native scalability. Calico provides developers and cluster operators with a consistent experience and set of capabilities whether running in public cloud or on-prem, on a single node, or across a multi-thousand node cluster.
 
 
-What is Racher ?
+What is Rancher ?
+****************************
 
 Rancher is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
+
+
+Chaos and Resilience Engineering
+************************************
+
+Chaos engineering is the practice of subjecting applications and services to real world stresses and failures in order to build and validate resilience to unreliable conditions and missing dependencies.
+
+A predictable system is a myth. System failures are inevitable but you can be prepared for failures by building resilient systems. We explore chaos engineering as a way to do exactly that.
+
+ 
+
+What is chaos engineering?
+
+![image](https://github.com/Dhineshkumarganesan/Digital/assets/59999899/5803ca2d-b286-4151-9366-12464d230822)
+
+
+What is chaos engineering?
+Chaos engineering or chaos testing is a Site Reliability Engineering (SRE) technique that simulates unexpected system failures to test a system's behavior and recovery plan. Based on what is learned from these tests, organizations design interventions and upgrades to strengthen their technology.
+ 
+![image](https://github.com/Dhineshkumarganesan/Digital/assets/59999899/c0879872-f9c8-469c-a688-306302bd4586)
+
+Why do we need chaos engineering?
+ 
+Let’s look at an instance where one of our e-commerce customers sees their applications terminating one after another during a Black Friday sale. But, there is no CPU or memory spike. Ultimately, it turns out that writing logs in a file within the container led to running out of disk space. 
+
+ 
+
+In the microservices world, it is not uncommon for one slow service to drag the latency up for the whole chain of systems. 
+
+ 
+
+In fact, today’s world of microservice architecture and ecosystems has moved us from a single point of failure in monolith systems to multi-point failures in distributed systems. To create scalable, highly available and reliable systems we need newer methods of testing.
+
+ 
+
+How does chaos engineering work?
+ 
+Chaos engineering is like a vaccine. Vaccines are usually a mild form of the disease/virus injected into the blood so our body learns to fight against the actual disease. Chaos engineering puts the system and infrastructure under immense stress scenarios to prepare for better availability, stability and resilience. 
+![image](https://github.com/Dhineshkumarganesan/Digital/assets/59999899/246ea12c-aa0e-4bfb-a94d-513fbf66d826)
+
+ 
+
+The most common problems that every application suffers are CPU or memory spike, network latency, time change during daylight saving time, reduced disk spaces and application crashes. So, the first step would be to make the infrastructure resilient enough to overcome these disasters at the application level. 
+
+Building resiliency with chaos engineering
+There are four major steps when running any chaos test:
+
+ 
+
+Define a steady state: before running chaos tests, define what an ideal system would look like. For instance, with a web application, the health check endpoint should return a 200 success response
+
+ 
+
+Introduce chaos: simulate a failure, something like a network bottleneck, disk fill or application crash for example
+
+ 
+
+Verify the steady-state: check if the system works as defined in Step 1. Also, verify that the corresponding alerts were triggered via email, SMS, text, slack message etc.
+
+ 
+
+Roll back the chaos: the most crucial step, especially while running in production, is to roll back or stop the chaos that we introduced and ensure that the system returns to normal
+
+Building resiliency with chaos engineering
+If the application passes the test, that’s evidence the system is resilient. However, if the application fails the test, we’d recommend following the red-green testing cycle — and once the weakness has been identified, fix it and rerun the test.
+
+ ![image](https://github.com/Dhineshkumarganesan/Digital/assets/59999899/faaa446a-01f6-4f50-8417-9caeb973108e)
+
+
+How to start chaos testing?
+ 
+If teams have just begun adopting chaos engineering, we’d suggest using a simple shell script. However, it’s important to run a steady-state hypothesis with continuous monitoring in parallel. As the chaos testing practice matures, we'd recommend using one of the many open-source or commercial tools.
+
+ 
+
+Gremlin is leading this space and covers most of the use cases
+
+Litmus chaos toolkit is a Kubernetes native, designed for k8s-based applications. You can read more about running a chaos test using this tool here
+
+Istio service mesh is great for network-related chaos such as network delays, errors, etc.
+
+AWS Fault Injection Simulator is a toolkit that helps when conducting chaos experiments on applications deployed in AWS
+
+ 
+
+Ideally, chaos testing is best run in production. However, we recommend that you learn in a lower environment first and then conduct controlled experiments in production later. In one of Thoughtworks’ client projects, it took the team six months to learn and practice in a lower environment before everyone (including clients) had the confidence to run chaos tests in production. 
+
+ 
+
+Once teams get here, they could also automate chaos testing like scheduled jobs in deployment pipelines. Schedule it to be run every week to verify that new changes in software are still meeting availability and resiliency benchmarks and commits that passed these checks progress further in the pipeline for production deployments.
+
+ 
+
+What outcomes does chaos engineering deliver?
+ 
+
+Increased availability and decreased mean time to resolution (MTTR) are the two most common benefits enterprises observe. Teams who frequently run chaos engineering experiments enjoy more than 99.9% availability. 23% of the teams reduced their MTTR to under one hour and 60% to under 12 hours with chaos engineering. For more on our experiences with chaos engineering, listen to our talk here.
